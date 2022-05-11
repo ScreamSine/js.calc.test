@@ -1,28 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Calculator</title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="logo" href="/img/htmlacademy.png" />
+    <title>Кваст</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Calculator v.0.2.42</h1>
-        <div class="input-data">
-          <label for="num1">Number 1: </label><input type="number" class="num1" id="num1" value="0"/></p>
-          <label for="num2">Number 2: </label><input type="number" class="num2" id="num2" value="0"/></p>
-        </div>
-        <button class="add">+</button>
-        <button class="subtract">-</button>
-        <button class="divine">/</button>
-        <button class="multy">*</button>
-        <button class="clear">clear</button>
-        <div class="resultat">
-          <label for="result"></label><input type="text" class="result" value="0" disabled>
-        </div>
+    <div class="header">
+      <img src="/img/logo.png" alt="logo" />
+      <ul>
+        <li><a href="#">История</a></li>
+        <li><a href="#">Производство</a></li>
+        <li><a href="#">Ассортимент</a></li>
+        <li><a href="#">Где купить</a></li>
+      </ul>
+      <h1>
+        Крафтовый квас <br />
+        всему голова!
+      </h1>
     </div>
+    <div class="main">
+      <div class="news">
+        <h2>Новинки</h2>
+        <div class="new1">
+          <h3>Вахтёр</h3>
+          <table>
+            <tr>
+              <td>Алк.</td>
+              <td>< 1%</td>
+            </tr>
+            <tr>
+              <td>Ккал</td>
+              <td>35</td>
+            </tr>
+          </table>
+          <p>Ржаной хлеб, Вода, Солод, Соль</p>
+          <img src="/img/bottle-left.jpg" alt="Vaxter" />
+          <p>
+            Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и
+            придаст сил для вечерних приключений!
+          </p>
+          <a href="#">Подробнее</a>
+          <a href="#">Купить</a>
+          <b>150 р.</b>
+        </div>
+        <div class="new2">
+          <h3>Романтик</h3>
+          <table>
+            <tr>
+              <td>Алк.</td>
+              <td>< 0,5%</td>
+            </tr>
+            <tr>
+              <td>Ккал</td>
+              <td>27</td>
+            </tr>
+          </table>
+          <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
+          <img src="/img/bottle-right.jpg" alt="Romantic" />
+          <p>
+            Лёгкий и освежающий напиток поможет сохранить отличное настроение в
+            течение всего дня.
+          </p>
+          <a href="#">Подробнее</a>
+          <a href="#">Купить</a>
+          <b>90 р.</b>
+        </div>
+      </div>
+      <div class="freatures"></div>
+      <div class="hostory"></div>
+      <div class="aboutUS"></div>
+      <div class="stock"></div>
+      <div class="order"></div>
+    </div>
+    <div class="footer"></div>
   </body>
-  <script src="js/script.js"></script>
 </html>
